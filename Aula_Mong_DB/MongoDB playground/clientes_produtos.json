@@ -1,0 +1,45 @@
+db={
+  "clientes": [
+    {
+      "nome": "Breno Dantas",
+      "cpf": "87569832536",
+      "telefone": "44987546333",
+      "data_nasc": ISODate("1999-08-14"),
+      "logradouro": "Rua Amapodi",
+      "numero": 3890,
+      "bairro": "Jardim Belo",
+      "cep": "87988230",
+      "cidade": "Umuarama",
+      "estado": "PR"
+    },
+    {
+      "nome": "Pedro Firmino",
+      "cpf": "99036541236",
+      "telefone": "44991236655",
+      "data_nasc": ISODate("2002-02-10"),
+      "logradouro": "Av. dos Patos",
+      "numero": 32,
+      "bairro": "Jardim Panorama",
+      "cep": "87101360",
+      "cidade": "Umuarama",
+      "estado": "PR"
+    }
+  ],
+  "produtos": [
+	{
+		"nome": "Camisa Polo Branca",
+		"valor_unitário": 89.90,
+		"estoque": 10,
+		"fotos": ["https://tinyurl.com/522azudj", 
+				  "https://tinyurl.com/3f4htyv4",
+				  "https://tinyurl.com/377u5fdm"]
+	},
+	{
+		"nome": "Calça Jeans Preta",
+		"valor_unitário": 125.00,
+		"estoque": 8,
+		"fotos": ["https://tinyurl.com/435hchmu", 
+				  "https://tinyurl.com/4fvcfv6e",]
+	}
+  ]
+}
